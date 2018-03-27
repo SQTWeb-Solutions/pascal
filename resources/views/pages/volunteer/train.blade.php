@@ -1,6 +1,6 @@
 @extends('template')
 @section('title')
-  Get in touch
+  Volunteer to train
 @endsection
 @section('content')
   <section class="xs-inner-welcome-section fundpress-inner-welcome-section fundpress-inner-bg-2 parallax-window" data-parallax="scroll" data-image-src="{{asset('img/bg/breadcrumb.jpg')}}">
@@ -31,7 +31,7 @@
         <div class="row">
           <div class="col-md-8 content-center">
             <div class="xs-contact-form-wraper">
-              @include('pages.contact.form')
+              @include('pages.volunteer.train-form')
             </div>
           </div>
         </div>

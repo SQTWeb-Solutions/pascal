@@ -8,13 +8,13 @@ use App\Http\Controllers\Controller;
 class VolunteerController extends Controller
 {
     /**
-     * Display a listing of the resource.
+     * Display a voluteer to train page.
      *
      * @return \Illuminate\Http\Response
      */
-    public function index()
+    public function train()
     {
-        //
+      return view('pages.volunteer.train');
     }
 
     /**

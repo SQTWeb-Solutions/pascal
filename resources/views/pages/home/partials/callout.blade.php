@@ -11,7 +11,7 @@
               <p>Volunteer to train a kid and help mentor the kid to get the best use of their hidden talent. Just fill the form and we will get in touch.</p>
             </div>
             <div class="xs-btn-wrapre">
-              <a href="#" class="xs-btn btn xs-box-shadow btn-primary btn-lg round-btn">Volunteer to train</a>
+              <a href="{{route('volunteer.train')}}" class="xs-btn btn xs-box-shadow btn-primary btn-lg round-btn">Volunteer to train</a>
             </div>
           </div>
           <div class="xs-solid-overlay xs-bg-black"></div>
