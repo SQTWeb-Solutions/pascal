@@ -16,6 +16,15 @@ class VolunteerController extends Controller
     {
       return view('pages.volunteer.train');
     }
+    /**
+     * Display a voluteer to support page.
+     *
+     * @return \Illuminate\Http\Response
+     */
+    public function support()
+    {
+      return view('pages.volunteer.support');
+    }
 
     /**
      * Show the form for creating a new resource.

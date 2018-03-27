@@ -64,18 +64,12 @@
     </div>
   </div>
   <div class="xs-input-group xs-mb-30">
-    <label for="xs_contact_subject">{{_t('Select Sports type')}}</label>
+    <label for="xs_contact_subject">{{_t('How would you sopport us?')}}</label>
     <div class="xs-input-group-addon">
-      <!-- TODO: Select Sport from the database -->
-      <select class="xs-input-control">
-        <option value="">Select Sports type</option>
-        <option value="Tennis">Tennis</option>
-        <option value="Football">Football</option>
-        <option value="Lawn Tennis">Lawn Tennis</option>
-        <option value="Basketball">Basketball</option>
-      </select>
+      <input type="text" name="profession" id="xs_contact_subject" class="xs-input-control" placeholder="How would you like to support PRSF...">
     </div>
   </div>
+
   <div class="xs-massage-group xs-mb-30">
     <label for="x_contact_massage">{{_t('Additional Information')}}</label>
     <div class="xs-massage-group-addon">

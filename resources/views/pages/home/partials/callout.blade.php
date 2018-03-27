@@ -27,7 +27,7 @@
               <p>Support a child to attain their goals, support them to reach out for their best, we need your support, together we can make them proud.</p>
             </div>
             <div class="xs-btn-wrapre">
-              <a href="#" class="xs-btn xs-box-shadow btn btn-primary btn-lg round-btn">Volunteer to support</a>
+              <a href="{{route('volunteer.support')}}" class="xs-btn xs-box-shadow btn btn-primary btn-lg round-btn">Volunteer to support</a>
             </div>
           </div>
           <div class="xs-solid-overlay xs-bg-black"></div>

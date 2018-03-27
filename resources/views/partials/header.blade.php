@@ -80,7 +80,7 @@
           <li><a href="{{route('volunteer')}}">{{ _t('Volunteer')}}</a>
             <ul class="nav-dropdown">
               <li><a href="{{route('volunteer.train')}}">{{ _t('Volunteer to Train')}}</a></li>
-              <li><a href="/">{{ _t('Volunteer to Support')}}</a></li>
+              <li><a href="{{route('volunteer.support')}}">{{ _t('Volunteer to Support')}}</a></li>
             </ul>
           </li>
           <li><a href="{{route('news')}}">{{ _t('News')}}</a></li>

@@ -34,4 +34,5 @@ Route::group(['prefix' => Translation::getRoutePrefix(), 'middleware' => ['local
   // controller for volunteer
   Route::view('/volunteer', 'pages.volunteer.page')->name('volunteer');
   Route::get('/volunteer/train', 'Volunteer\VolunteerController@train')->name('volunteer.train');
+  Route::get('/volunteer/support', 'Volunteer\VolunteerController@support')->name('volunteer.support');
 });
