@@ -68,8 +68,8 @@ class LoginController extends Controller
         if(!$user->hasVerifiedEmail()) {
             $this->guard()->logout();
 
-            return redirect('/admin/login')
-                ->withError('Please activate your account. Trouble Getting Verification Email, <a href="' . route('admin.verify.resend') . '?email=' . $user->email .'">Resend?</a>');
+            return redirect(route('admin.login'))
+                ->withError('Please activate your account. Trouble Getting Verification Email, <a class="alert-link" href="' . route('admin.verify.resend') . '?email=' . $user->email .'">Resend?</a>');
         }
         Session::flash('success','Welcome Back, '.$user->firstname);
     }
@@ -90,7 +90,7 @@ class LoginController extends Controller
 
         Session::flash('success','Account Logged Out Successfully');
 
-        return redirect('/admin/login');
+        return redirect(route('admin.login'));
     }
     /**
      * Get the guard to be used during authentication.

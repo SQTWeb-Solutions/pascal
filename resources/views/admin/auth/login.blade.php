@@ -22,7 +22,7 @@
                 {{ session('info') }}
             </div>
         @endif
-        <form name="form" data-ui-jp="parsley" action="{{route('admin.login')}}">
+        <form name="form" data-ui-jp="parsley" method="post" action="{{route('admin.login')}}">
           {{csrf_field()}}
           <div class="form-group{{ $errors->has('email') ? ' has-error' : '' }}">
              <input type="email" class="form-control" placeholder="Email" name="email" value="{{ old('email') }}" required autofocus>

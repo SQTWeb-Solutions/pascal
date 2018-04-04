@@ -22,7 +22,7 @@
                 {{ session('info') }}
             </div>
         @endif
-        <form name="form" data-ui-jp="parsley" action="{{route('admin.register')}}">
+        <form name="form" data-ui-jp="parsley" method="post" action="{{route('admin.register')}}">
           {{csrf_field()}}
           <div class="form-group {{ $errors->has('firstname') ? ' has-error' : '' }}">
             <input type="text" class="form-control" name="firstname" value="{{old('firstname')}}" placeholder="First Name" required>

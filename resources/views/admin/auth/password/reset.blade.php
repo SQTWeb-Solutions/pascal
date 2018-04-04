@@ -22,7 +22,7 @@
                 {{ session('info') }}
             </div>
         @endif
-        <form name="form" data-ui-jp="parsley" action="{{ route('admin.password.submit') }}">
+        <form name="form" data-ui-jp="parsley" method="post" action="{{ route('admin.password.submit') }}">
           {{csrf_field()}}
           <input type="hidden" name="token" value="{{ $token }}">
           <div class="form-group{{ $errors->has('email') ? ' has-error' : '' }}">
@@ -50,11 +50,8 @@
               @endif
            </div>
 
-          <button type="submit" class="btn btn-lg black p-x-lg">Sign me in</button>
+          <button type="submit" class="btn btn-lg black p-x-lg">Change my password</button>
         </form>
-        <div class="m-y">
-          <div class="m-y"><a href="{{route('admin.password.email')}}" class="_600">Forgot password?</a></div>
-        </div>
       </div>
     </div>
   </div>

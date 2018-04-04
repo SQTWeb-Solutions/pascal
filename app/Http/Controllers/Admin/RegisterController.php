@@ -34,7 +34,7 @@ class RegisterController extends Controller
      *
      * @var string
      */
-    protected $redirectTo = '/admin/login';
+    protected $redirectTo = '/login';
 
     /**
      * Create a new controller instance.
@@ -128,7 +128,7 @@ class RegisterController extends Controller
    {
      $this->guard()->logout();
      Session::flash('success','Admin Account Created Successfully, Please Check your Email Address for Verification Link');
-     return redirect('/admin/login');
+     return redirect(route('admin.login'));
    }
     /**
     * Get the guard to be used during registration.

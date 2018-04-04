@@ -22,7 +22,7 @@ class VerificationController extends Controller
 
     	//Auth::login($token->user);
 
-    	return redirect('/admin/login')->withInfo('Email verification successful. Please login again');
+    	return redirect(route('admin.login'))->withInfo('Email verification successful. Please login again');
     }
 
     public function resend(Request $request)
@@ -30,11 +30,11 @@ class VerificationController extends Controller
       $user = Admin::byEmail($request->email)->firstOrFail();
 
         if($user->hasVerifiedEmail()) {
-            return redirect('/admin/dashboard')->withInfo('Your email has already been verified');
+            return redirect(route('admin.dashboard'))->withInfo('Your email has already been verified');
         }
 
         event(new AdminRequestVerificationEmail($user));
 
-        return redirect('/admin/login')->withInfo('Verification email resent. Please check your inbox');
+        return redirect(route('admin.login'))->withInfo('Verification email resent. Please check your inbox');
     }
 }
