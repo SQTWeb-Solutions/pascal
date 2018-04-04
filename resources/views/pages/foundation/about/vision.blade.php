@@ -32,7 +32,7 @@
               <p class="xs-content-description fundpress-content-description color-navy-blue">{{_t('Inspire participation in sports.')}}</p>
             </li>
           </ul>
-          <a href="#" class="xs-btn round-btn navy-blue-btn">{{_t('Volunteer')}}</a>
+          <a href="{{route('volunteer')}}" class="xs-btn round-btn navy-blue-btn">{{_t('Volunteer')}}</a>
         </div>
       </div>
     </div>

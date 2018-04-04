@@ -21,7 +21,7 @@
       <div class="container">
         <div class="fundpress-heading-title-v3 text-center wow fadeInUp" data-wow-duration="1s">
           <div class="fundpress-heading-title-content">
-            <h2>{{_t('Our <span>sponsors</span>')}}</h2>
+            <h2>{!!_t('Our <span>sponsors</span>')!!}</h2>
           </div>
           <span class="parallax-title" data-scrollax="properties: { translateY: '-250px' }">sponsors</span>
         </div><!-- section heading -->

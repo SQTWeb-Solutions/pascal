@@ -19,7 +19,7 @@
               <p class="xs-content-description fundpress-content-description color-navy-blue">{{_t('Put Nigeria and her athletes on the map for talent scouts and sports institutions worldwide.')}}'</p>
             </li>
           </ul>
-          <a href="#" class="xs-btn round-btn navy-blue-btn">{{_t('suggest a kid')}}</a>
+          <a href="{{route('suggest')}}" class="xs-btn round-btn navy-blue-btn">{{_t('suggest a kid')}}</a>
         </div>
       </div>
       <div class="col-md-12 col-lg-6 d-flex align-items-center justify-content-center">

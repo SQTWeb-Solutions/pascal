@@ -5,7 +5,7 @@
         <div class="fundpress-side-by-side-image-with-text">
           <h5 class="color-green">{{_t('Our Mission')}}</h5>
           <p>{{_t('The Pascal Rufi Sport Foundation strives to foster and support under-privileged Nigerian youths with athletic talent (from the most deprived social and economic areas) to ensure that they find national and international sports success while delivering the cultural, social, health and educational benefits of sports.')}}</p>
-          <a href="#" class="xs-btn round-btn navy-blue-btn">{{_t('suggest a kid')}}</a>
+          <a href="{{route('suggest')}}" class="xs-btn round-btn navy-blue-btn">{{_t('suggest a kid')}}</a>
         </div>
       </div>
       <div class="col-md-12 col-lg-6">

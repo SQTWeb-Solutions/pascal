@@ -97,7 +97,7 @@
                   </li>
                   <li class="nav-item">
                     <!-- Requests and support form for request -->
-                    <a class="nav-link" href="#backers" role="tab" data-toggle="tab">{{_t('Requests')}}<span class="color-red">(3)</span></a>
+                    <a class="nav-link" href="#requests" role="tab" data-toggle="tab">{{_t('Requests')}}<span class="color-red">(3)</span></a>
                   </li>
                 </ul>
               </div>
@@ -184,6 +184,69 @@
                       </a>
                     </li>
                   </ul>
+                </div>
+                <div role="tabpanel" class="tab-pane fadeInRights fade " id="requests">
+                  <h3 class="bold color-green xs-post-title fundpress-post-title xs-mb-30">{{_t('Please, kindly support on:')}}</h3>
+
+                  <div class="card-columns my-card">
+                    <div class="card">
+                      <div class="xs-info-card xs-purple-bg fundpress-info-card xs-box-shadow color-white">
+                        <h3 class="xs-mb-30">{{_t('Sponsor me to olympics')}}</h3>
+                        <h4 class="xs-mb-20">HIS and HERS (or For Parents)</h4>
+                        <p class="xs-mb-20 xs-content-description fundpress-content-description">{{_t('lorem lypsum lorem lorem text goes here as long as it might be')}} </p>
+                        <span class="xs-mb-40">{{_t('another caption')}}.</span>
+                        <div class="xs-spilit-container">
+                          <div class="xs-info-card-times">
+                            <h5>Due Date</h5>
+                            <h6>17 Aug 2017</h6>
+                          </div>
+                          <div class="xs-info-card-times">
+                            <h5>Support For</h5>
+                            <h6>Sponsorship</h6>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="card">
+                      <div class="xs-info-card green-bg fundpress-info-card xs-box-shadow color-white">
+                        <h3 class="xs-mb-30">{{_t('Sponsor me to olympics')}}</h3>
+                        <h4 class="xs-mb-20">HIS and HERS (or For Parents)</h4>
+                        <p class="xs-mb-20 xs-content-description fundpress-content-description">{{_t('lorem lypsum lorem lorem text goes here as long as it might be')}} </p>
+                        <span class="xs-mb-40">{{_t('another caption')}}.</span>
+                        <div class="xs-spilit-container">
+                          <div class="xs-info-card-times">
+                            <h5>Due Date</h5>
+                            <h6>17 Aug 2017</h6>
+                          </div>
+                          <div class="xs-info-card-times">
+                            <h5>Support For</h5>
+                            <h6>Sponsorship</h6>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="card">
+                      <div class="xs-info-card xs-pink-bg fundpress-info-card xs-box-shadow color-white">
+                        <h3 class="xs-mb-30">{{_t('Sponsor me to olympics')}}</h3>
+                        <h4 class="xs-mb-20">HIS and HERS (or For Parents)</h4>
+                        <p class="xs-mb-20 xs-content-description fundpress-content-description">{{_t('lorem lypsum lorem lorem text goes here as long as it might be')}} </p>
+                        <span class="xs-mb-40">{{_t('another caption')}}.</span>
+                        <div class="xs-spilit-container">
+                          <div class="xs-info-card-times">
+                            <h5>Due Date</h5>
+                            <h6>17 Aug 2017</h6>
+                          </div>
+                          <div class="xs-info-card-times">
+                            <h5>Support For</h5>
+                            <h6>Sponsorship</h6>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                  </div>
+
+
                 </div>
               </div>
             </div>
@@ -390,6 +453,7 @@
 
 @endsection
 @section('styles')
+
 @endsection
 @section('scripts')
 @endsection

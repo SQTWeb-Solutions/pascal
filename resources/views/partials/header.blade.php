@@ -15,7 +15,7 @@
         </div>
       </div>
       <div class="col-md-6 d-flex justify-content-end">
-        <a href="/" class="btn btn-link" >
+        <a href="{{route('suggest')}}" class="btn btn-link" >
           {{ _t('Suggest a kid')}}
         </a>
         <a class="btn btn-success" href="#" data-toggle="modal" data-target=".bd-example-modal-lg">
@@ -53,25 +53,25 @@
               <li><a href="{{route('sports.category',['tennis'])}}">{{ _t('Tennis')}}</a>
                 <ul class="nav-dropdown">
                   <li><a href="{{route('sports.category',['tennis'])}}">{{ _t('Athletes')}}</a></li>
-                  <li><a href="/">{{ _t('Suggest a talented kid')}}</a></li>
+                  <li><a href="{{route('suggest.sport',['tennis'])}}">{{ _t('Suggest a talented kid')}}</a></li>
                 </ul>
               </li>
               <li><a href="{{route('sports.category',['football'])}}">{{ _t('Football')}}</a>
                 <ul class="nav-dropdown">
                   <li><a href="{{route('sports.category',['football'])}}">{{ _t('Athletes')}}</a></li>
-                  <li><a href="/">{{ _t('Suggest a talented kid')}}</a></li>
+                  <li><a href="{{route('suggest.sport',['football'])}}">{{ _t('Suggest a talented kid')}}</a></li>
                 </ul>
               </li>
               <li><a href="{{route('sports.category',['basket-ball'])}}">{{ _t('Basket Ball')}}</a>
                 <ul class="nav-dropdown">
                   <li><a href="{{route('sports.category',['basket-ball'])}}">{{ _t('Athletes')}}</a></li>
-                  <li><a href="/">{{ _t('Suggest a talented kid')}}</a></li>
+                  <li><a href="{{route('suggest.sport',['basket-ball'])}}">{{ _t('Suggest a talented kid')}}</a></li>
                 </ul>
               </li>
               <li><a href="{{route('sports.category',['lawn-tennis'])}}">{{ _t('Lawn Tennis')}}</a>
                 <ul class="nav-dropdown">
                   <li><a href="{{route('sports.category',['lawn-tennis'])}}">{{ _t('Athletes')}}</a></li>
-                  <li><a href="/">{{ _t('Suggest a talented kid')}}</a></li>
+                  <li><a href="{{route('suggest.sport',['lawn-tennis'])}}">{{ _t('Suggest a talented kid')}}</a></li>
                 </ul>
               </li>
             </ul>

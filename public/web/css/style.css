@@ -296,7 +296,7 @@ ul, li {
   top: 0;
   left: 0;
   z-index: 9999999999;
-  background-color: #041D57; }
+  background-color: #3EB0F7; }
 
 .spinner {
   width: 40px;
@@ -1563,7 +1563,7 @@ min-height:400px }
   .xs-owl-round-nav:hover {
     background-color: #4CC899; }
   .xs-owl-round-nav.v2 {
-    background-color: #011b58;
+    background-color: #3EB0F7;
     -webkit-box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.2);
             box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.2); }
     .xs-owl-round-nav.v2:hover {
@@ -1979,7 +1979,7 @@ min-height:400px }
   display: block; }
 
 .fundpress-single-footer-v2-content {
-  border: 2px solid #161E40;
+  border: 2px solid #eee;
   text-align: center;
   padding: 20px 15px;
   width: calc(100% - 30px); }
@@ -2007,7 +2007,7 @@ min-height:400px }
       content: "\f178";
       left: 0;
       top: 0;
-      color: #515969;
+      color: #eee;
       font-family: "FontAwesome"; }
 
 .xs-list-item-icon-text-v2 li, .xs-list-item-icon-text-v2 a {
@@ -2028,7 +2028,7 @@ min-height:400px }
 
 .fundpress-copyright-text-v2 p, .fundpress-copyright-text-v2 a {
   margin-bottom: 0;
-  color: #838891; }
+  color: #fff; }
 
 .fundpress-copyright-text-v2 a:hover {
   color: #FFFFFF; }
@@ -2038,7 +2038,7 @@ min-height:400px }
   .xs-social-list-v7 li:last-child {
     margin-right: 0; }
   .xs-social-list-v7 li.xs-text-content {
-    color: #838891;
+    color: #fff;
     font-weight: 600;
     font-size: 1.14286em; }
   .xs-social-list-v7 li a {
@@ -2228,7 +2228,7 @@ min-height:400px }
   .xs-btn.blue-btn {
     background-color: #3E5A97; }
   .xs-btn.navy-blue-btn {
-    background-color: #041D57; }
+    background-color: #3EB0F7; }
   .xs-btn.round-btn {
     border-radius: 40px 40px 40px 40px / 40px 40px 40px 40px; }
   .xs-btn.icon-btn {
@@ -3332,7 +3332,7 @@ dal .fundpress-tab-nav-v5 {
   padding: 0 0 50px; }
 
 .fundpress-video-top-section {
-  padding: 119px 0 284px; }
+  padding: 70px 0 240px; }
 
 .fundpress-popup-image {
   position: relative; }
@@ -4024,7 +4024,7 @@ h4.fundpress-content-description{
       position: absolute;
       content: '\e93f';
       font-family: "iconfont";
-      background-color: #1B70F0;
+      background-color: #3EB0F7;
       width: 38px;
       height: 38px;
       border-radius: 100%;
@@ -4314,12 +4314,12 @@ h4.fundpress-content-description{
   background-color: #FFFFFF; }
 
 .fundpress-footer-version-2 {
-  background-color: #050C24; }
+  background-color: #3EB0F7; }
   .fundpress-footer-version-2 .fundpress-footer-top-layer {
     padding: 40px 0; }
   .fundpress-footer-version-2 .fundpress-footer-bottom-v2 {
     padding: 20px 0;
-    background-color: #030819; }
+    background-color: #2B7BAC; }
 
 .fundpress-from-journal-v2 .fundpress-item-content .entry-title a:hover {
   color: #1B70F0; }
@@ -4327,7 +4327,7 @@ h4.fundpress-content-description{
 
 
 .top-bar {
-  background: #030819;
+  background: #3EB0F7;
   padding:5px 0;
 }
 
@@ -4357,4 +4357,10 @@ h4.fundpress-content-description{
 }
 .fundpress-isotope-grid {
   border: 1px solid #ddd;
+}
+@media  (min-width: 992px){
+.card-columns.my-card {
+    column-count: 2;
+  }
+
 }

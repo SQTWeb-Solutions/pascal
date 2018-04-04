@@ -15,14 +15,31 @@
     </div>
   </section>
   <main class="xs-all-content-wrapper">
-    @include('pages.home.partials.about')
+    <section class="xs-about-us-promo-section xs-content-section-padding fundpress-about-us-promo-section">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12 col-lg-6">
+            <div class="fundpress-inner-about-content">
+              <h2 class="color-navy-blue">{{_t('We are changing the way of making things possible.')}}</h2>
+              <p>“{{_t('The Pascal Rufi Foundation is proud to be able to leave positive footprints in the community by providing beneficial intervention to youths in need')}}” </p>
+
+            </div>
+          </div>
+          <div class="col-md-12 col-lg-6">
+            <div class="fundpress-about-promo-image xs-box-shadow">
+              <img src="{{asset('img/pages/about-side.jpg')}}" alt="">
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
     <section class="xs-section-padding fundpress-contact-us-section xs-contact-us-section">
       <div class="container">
         <div class="row">
           <div class="col-md-10 content-center">
             <div class="xs-section-heading fundpress-section-heading">
               <div class="xs-heading-title fundpress-heading-title">
-                <h2 class="color-navy-blue">{{_t('Volunteer to support')}}</h2>
+                <h2 class="color-navy-blue">{{_t('Suggest a talented kid to us')}}</h2>
                 <span class="xs-separetor dashed-separetor fundpress-separetor"></span>
               </div>
             </div>
@@ -31,7 +48,7 @@
         <div class="row">
           <div class="col-md-8 content-center">
             <div class="xs-contact-form-wraper">
-              @include('pages.volunteer.support-form')
+              @include('pages.suggest.suggest-form')
             </div>
           </div>
         </div>

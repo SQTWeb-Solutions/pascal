@@ -12,7 +12,7 @@
             <div class="fundpress-footer-content xs-mb-30">
               <p class="color-white xs-mb-0">{{ _t('The Pascal Rufi Sports Foundation was established by the Rufi family; Pascal Rufi, Mara Simone, and their lovely daughter Emma.')}}'</p>
             </div>
-            <a href="/" class="xs-btn btn text-capitalize btn-primary btn-lg round-btn">{{ _t('Read More')}}</a>
+            <a href="{{route('foundation.about')}}" class="xs-btn btn text-capitalize btn-primary btn-lg round-btn">{{ _t('Read More')}}</a>
           </div>
         </div>
         <div class="col-md-6 col-6 col-lg-2">
@@ -39,7 +39,7 @@
               <ul>
                 <li><a href="{{route('foundation.about')}}">{{ _t('The Foundation')}}</a></li>
                 <li><a href="{{route('events')}}">{{ _t('Events')}}</a></li>
-                <li><a href="#">{{ _t('Volunteer')}}</a></li>
+                <li><a href="{{route('volunteer')}}">{{ _t('Volunteer')}}</a></li>
                 <li><a href="{{route('news')}}">{{ _t('News')}}</a></li>
                 <li><a href="{{route('contact')}}">{{ _t('Contact')}}</a></li>
               </ul>

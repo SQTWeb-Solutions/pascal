@@ -24,7 +24,7 @@
               <div class="xs-welcome-wraper">
                 <h2>{{_t('Encourage young people with sports.')}}'</h2>
                 <div class="xs-btn-wraper">
-                  <a href="#" class="xs-btn navy-blue-btn round-btn">{{_t('suggest a talented kid')}}</a>
+                  <a href="{{route('suggest')}}" class="xs-btn navy-blue-btn round-btn">{{_t('suggest a talented kid')}}</a>
                 </div>
               </div>
             </div>
@@ -40,7 +40,7 @@
               <div class="xs-welcome-wraper">
                 <h2>{{_t('Inspire participation in sports.')}}'</h2>
                 <div class="xs-btn-wraper">
-                  <a href="#" class="xs-btn navy-blue-btn round-btn">{{_t('Volunteer now')}}</a>
+                  <a href="{{route('volunteer')}}" class="xs-btn navy-blue-btn round-btn">{{_t('Volunteer now')}}</a>
                 </div>
               </div>
             </div>

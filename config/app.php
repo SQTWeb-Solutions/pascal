@@ -161,6 +161,7 @@ return [
         'Stevebauman\Translation\TranslationServiceProvider',
         // set the language service provider
         App\Providers\LanguageServiceProvider::class,
+        App\Providers\EloquentEventServiceProvider::class,
 
 
     ],
